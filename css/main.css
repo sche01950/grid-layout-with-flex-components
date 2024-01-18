@@ -9,7 +9,7 @@ body {
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   
   .emoji h2 {
@@ -33,7 +33,7 @@ body {
 
   .emojis {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 350px 350px;
     gap: 15px;
   }
